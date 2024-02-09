@@ -1,0 +1,226 @@
+  /*
+  Student Name = Diwash Adhikari
+  Student ID = 2407736 
+  */
+  /* Resetting deafualt styles for all elements */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Styling for the main container of the webpage */
+  .firstpage {
+    height: 95vh;
+    width: 100vw;
+    background-image: url("https://github.com/Diwash17/Images/blob/main/%E2%80%94Slidesdocs%E2%80%94raindrop%20window%20rainwater%20water%20drops_b95278c16d.jpg?raw=true");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* Styling for the main content box */
+  .mainbox {
+    height: 75%;
+    width: 60%;
+    border: 0.3px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 255, 0.223);
+    backdrop-filter: blur(10px);
+  }
+
+  /* Styling for the city input */
+  input {
+    height: 3vw;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding-left: 0.5vw;
+    font-size: 1.8vw;
+    border-radius: 1.5vw 0vw 0vw 1.5vw;
+  }
+
+  /* Styling for input placeholder */
+  input::placeholder {
+    font-size: 1.8vw;
+    padding-left: 0.5vw;
+
+  }
+
+  /* Styling for the first part of the content with city input and search button */
+  .firstpart {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Styling for the second part of the content with weather details */
+  .second {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+  }
+
+  /* Styling for the weather details container */
+  .second img {
+    height: 6vw;
+    width: 6vw;
+
+  }
+
+  /* Styling for the image of weather icon */
+  .second-one {
+    border: 1px solid black;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    border-radius: 5vw;
+    background-color: rgba(65, 105, 225, 0.234);
+  }
+
+  /* Styling for the search input and button container */
+  .search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Styling for search input field */
+  .search input[type="text"] {
+    border: 0;
+    outline: 0;
+    background: white;
+    color: #555;
+    padding: 10px 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+
+  /* Style for search button */
+  .firstpart button {
+    background-color: white;
+    border-radius: 0vw 1.5vw 1.5vw 0vw;
+    width: 4vw;
+    height: 3vw;
+    cursor: pointer;
+    border: none;
+    border-left: 0.2px solid black;
+  }
+
+  /* Style for search button image */
+  button img {
+    height: 2vw;
+    width: 2vw;
+  }
+
+  /* Styling for additional weather information */
+  .down-main {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    width: 100%;
+    border-top: 1px solid black;
+    padding-top: 2vw;
+    background-color: rgba(65, 105, 225, 0.234);
+    height: 22.99%;
+    position: relative;
+    bottom: 14%;
+    
+  }
+
+  /* Styling for temperature info */
+  .Temp {
+    color: white;
+    font-size: 2vw;
+
+  }
+
+  /* Styling for pressure windspeed and humidity container */
+  .down {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+  }
+
+  /* Styling for icons and information in the additional weather information container */
+  .down-main img {
+    height: 30%;
+    width: 4vw;
+    background-color: transparent;
+  }
+
+  /* Styling for copywright information container */
+  .Copyright {
+    height: 5vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+  }
+  
+  #pagetwo{
+    height: 100vh;
+    width: 100vw;
+    background-color: #4AA7B9;
+    display:flex;
+    justify-self: center;
+    align-items: center;
+  }
+ 
+  
+  #pagetwo table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #pagetwo th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  #pagetwo td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  #clickme{
+    position: relative;
+    bottom: 200%;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 0.4vw 2vw;
+    border-radius: 10px;
+  }
+  #clickme:hover{
+    background-color: #4496C2;
+  }
+  table{
+    margin-left: 10%;
+  }
